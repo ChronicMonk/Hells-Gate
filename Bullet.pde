@@ -164,6 +164,7 @@ class enemyBullet extends Bullet
          
           this.active = false;
           lives -= 1;
+          Score -= 10;
         }
         
       

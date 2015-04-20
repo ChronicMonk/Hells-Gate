@@ -43,6 +43,7 @@ class powerUpHP extends Bullet
           else
           {
             lives += 1;
+            Score += 5;
           }
         }
         
@@ -92,6 +93,7 @@ class powerUpTC extends Bullet
           this.active = false;
           TCC = 0;
           twinCannon = true;
+          Score += 5;
         }
         
       
@@ -140,6 +142,7 @@ class powerUpSP extends Bullet
           this.active = false;
           SPC = 0;
           speeding = true;
+          Score += 5;
         }
         
       
@@ -188,6 +191,7 @@ class powerUpCH extends Bullet
           this.active = false;
           CHC = 0;
           chaining = true;
+          Score += 5;
         }
         
       

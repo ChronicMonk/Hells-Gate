@@ -7,7 +7,7 @@
 //values
 int bulletMAX = 10;
 int enemyMAX = 40;
-int enemyCurrent = 30;
+int enemyCurrent = 4;
 float margin = 25.0;
 int gamestate = 0;
 int Score = 0;
@@ -418,8 +418,8 @@ void GameWin()
      textFont(font,80);
       text("Your Score:" + Score,width * 0.1, height * 0.4);
       textFont(font,60);
-     text("Press T to try again",width * 0.3, height * 0.4);
-     text("Press Q to quit",width * 0.3,height * 0.6);
+     text("Press T to try again",width * 0.3, height * 0.6);
+     text("Press Q to quit",width * 0.3,height * 0.7);
      
     if (key == 't' || key == 'T')
     {

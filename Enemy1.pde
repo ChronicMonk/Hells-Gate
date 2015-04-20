@@ -70,6 +70,7 @@ void move()
   if(Epos.y >= height)
   {
     lives -= 1;
+    Score -= 5;
      alive = false;
    
   }

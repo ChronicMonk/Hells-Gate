@@ -80,6 +80,7 @@ class Enemy2
     if(Epos.y >= height)
     {
       lives -= 1;
+      Score -= 10;
        alive = false;
     }
     
